@@ -1,0 +1,259 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+​
+<p id="para"></p>
+​<script src="practice.js" type="text/javascript"></script>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<body>
+​
+<p>The document.write() method writes a string of text to document output stream:</p>
+​
+<script>
+document.write(new Date());
+</script>
+​
+</body>
+</html> -->
+
+<!-- <button onclick="myFunc()">Click me</button>
+​
+<script>
+function myFunc() {
+  document.write(new Date());
+}
+</script> -->
+
+<!-- <html>
+<body>
+​
+<p id="para">This is a paragraph.</p>
+<p id="result"></p>
+​
+<script>
+var x = document.getElementById("para").innerHTML;
+document.getElementById("result").innerHTML = x;
+</script>
+​
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>my name</title>
+</head>
+<body>
+	<table id="table">
+		<tr>
+			<td>one</td><td>twp</td>
+		</tr>
+		<tr>
+			<td>three</td><td>four</td>
+		</tr>
+	</table>
+
+
+
+
+	<script src="practice.js" type="text/javascript"></script>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+			<p id="bedit"></p>
+		<label>
+			First Name:
+		</label>
+		<br>
+		<input type="name" placeholder="input your name" id ="info" value="">  
+		<span id="fillEmptyBoxes"></span>
+		<br>
+		<br>
+		<label>
+			Password:
+		</label>
+		<br>
+		<input type="password"  name="password" placeholder="input password" id="ainfo">
+		<span id="afillEmptyBoxes"></span>
+		<br>
+		<br>
+		<button onclick = "edit()" id="aedit">
+			Edit
+		</button>
+		<button type="reset">
+			Clear
+		</button>
+		<button onclick = "submit()" id="btnSubmit">
+			Submit
+		</button>
+
+</body>
+<script type="text/javascript" src="practice.js"></script>
+</html>
+ -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment</title>
+</head>
+<body> -->
+
+	<!-- <button id="elem">Click me</button>
+<script>
+  class Menu {
+    handleEvent(event) {
+      // mousedown -> onMousedown
+      let method = 'on' + event.type[0].toUpperCase() + event.type.slice(1);
+      this[method](event);
+    }
+    onMousedown() {
+      elem.innerHTML = "Mouse button pressed";
+    }
+    onMouseup() {
+      elem.innerHTML += "...and released.";
+    }
+  }
+  let menu = new Menu();
+  elem.addEventListener('mousedown', menu);
+  elem.addEventListener('mouseup', menu);
+</script> 
+ -->
+
+
+<!-- p>Right-click here for the document context menu</p>
+<button id="elem">Right-click here for the button context menu</button>
+
+<script>
+  elem.oncontextmenu = function(event) {
+    event.preventDefault();
+    alert("Button context menu");
+  };
+
+  document.oncontextmenu = function(event) {
+    event.preventDefault();
+    alert("Document context menu");
+  };
+</script> -->
+
+ 
+<!-- <form name="my">
+  <input name="one" value="1">
+  <input name="two" value="2">
+</form>
+
+<script>
+  // get the form
+  let form = document.forms.my; // <form name="my"> element
+
+  // get the element
+  let elem = form.elements.one; // <input name="one"> element
+
+  alert(elem.value); // 1
+</script>
+
+ -->
+ <!-- <style>
+  .invalid { border-color: red; }
+  #error { color: red }
+</style>
+Your email please: <input type="email" id="input">
+<div id="error"></div>
+<script>
+input.onblur = function() {
+  if (!input.value.includes('@')) { // not email
+    input.classList.add('invalid');
+    error.innerHTML = 'Please enter a correct email.'
+  }
+};
+input.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the "error" indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error.innerHTML = "";
+  }
+};
+</script> -->
+
+
+<!-- <input type="text" onchange="alert(this.value)">
+<input type="button" value="Button">
+<input type="text" id="input"> oninput: <span id="result"></span>
+<script>
+  input.oninput = function() {
+    result.innerHTML = input.value;
+  };
+</script>
+
+<input type="text" id="input">
+<script>
+  input.oncut = input.oncopy = input.onpaste = function(event) {
+    alert(event.type + ' - ' + event.clipboardData.getData('text/plain'));
+    return false;
+  };
+</script>  -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+</body>
+</html>
+ -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>practice</title>
+   <link rel="stylesheet" type="text/css" href="id.css">
+ </head>
+ <body>
+  <div>
+    you are amazing
+    <p>
+      my name is hephzy
+    </p>
+    <p>me and me</p>
+    <p>you and you</p>
+    <span>nice</span>
+
+    
+  </div>
+   <button>click me</button>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+
+  $(document).ready(function(){
+  $('button').click(function(){
+    $("div").find("span").css("background","coral");
+
+  });
+  
+});
+
+  </script>
+ 
+ </body>
+ </html>
+
+
+
+
+
+
+

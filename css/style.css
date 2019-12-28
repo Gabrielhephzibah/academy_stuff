@@ -1,0 +1,64 @@
+.navbar__top {
+  background: #7E241C;
+}
+.navbar__icon {
+  width: 18px;
+  height: 18px;
+}
+.facebook {
+  content: url("../icons/facebook.svg");
+}
+.twitter {
+  content: url("../icons/twitter.svg");
+}
+.linkedin {
+  content: url("../icons/linked-in.svg");
+}
+.google {
+  content: url("../icons/google.svg");
+}
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.navbar_top2 {
+  background: #ffffffff
+}
+.navbar_icon2{
+  width: 16px;
+  height:16px;
+}
+.enyata{
+  content: url("../icons/Enyata Logo.svg");
+}
+.navbar_menu {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+}
+.text-brown {
+  font-size: 16px;
+  color: #7E241C
+}
+.text-grey{
+  font-size: 16px;
+  color: #4f4f4f
+}
+.card-img-top1 {
+  content: url("../icons/computer.svg");
+}
+.card-img-top2 {
+  content: url("../icons/people.svg");
+}
+.card-text-link {
+  color: #7E241C;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 136.8%;
+  letter-spacing: 0.04em; 
+}

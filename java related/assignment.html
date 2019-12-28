@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> form</title>
+</head>
+<body>
+	<!-- <p id="bedit"></p>
+		<label>
+			First Name:
+		</label>
+		<br>
+		<input type="name" placeholder="input your name" id ="info" value="">  
+		<span id="fillEmptyBoxes"></span>
+		<br>
+		<br>
+		<label>
+			Password:
+		</label>
+		<br>
+		<input type="password"  name="password" placeholder="input password" id="ainfo">
+		<span id="afillEmptyBoxes"></span>
+		<br>
+		<br>
+		<button onclick = "edit()" id="aedit">
+			Edit
+		</button>
+		<button type="reset">
+			Clear
+		</button>
+		<button onclick = "submit()" id="btnSubmit">
+			Submit
+		</button>
+ -->
+
+
+ button id="elem">Click me</button>
+<script>
+  class Menu {
+    handleEvent(event) {
+      // mousedown -> onMousedown
+      let method = 'on' + event.type[0].toUpperCase() + event.type.slice(1);
+      this[method](event);
+    }
+    onMousedown() {
+      elem.innerHTML = "Mouse button pressed";
+    }
+    onMouseup() {
+      elem.innerHTML += "...and released.";
+    }
+  }
+  let menu = new Menu();
+  elem.addEventListener('mousedown', menu);
+  elem.addEventListener('mouseup', menu);
+</script>
+
+
+<script type="text/javascript" src="gone.js"></script>
+
+
+</body>
+</html>

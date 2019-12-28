@@ -1,0 +1,95 @@
+.heading {
+	height: 40vh;
+	background-color:#EFE6DD ; 
+}
+.img-top {
+	content: url("Rectangle 2.svg");
+}
+.first {
+	font-size: 30px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+
+}
+.second {
+	font-size: 14px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 30px;
+	letter-spacing: 0.1em;
+}
+.lower-part {
+	background-color: white;
+}
+#imgDiv {
+	position: absolute;
+	top:160px;
+	left: calc(50vw-20px);
+	width:25px;
+}
+.contact {
+	position: absolute;
+  	right: 0px;
+  	width: 650px;
+  	font-family: Lato;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 34px;
+	letter-spacing: 0.2em;
+
+}
+.next-text {
+	font-family: Lato;
+	font-style: normal;
+	font-weight:normal;
+	font-size: 10px;
+	line-height:10px;
+	letter-spacing: 0.1em;
+}
+.chat-icon {
+	content: url(chat icon.svg);
+}
+.facebook-icon {
+	content: url(facebook icon.svg);
+}
+.gmail-icon {
+	content: url(gmail icon.svg);
+}
+.chat-image {
+	width: 18px;
+	height: 18px;
+}
+.image {
+	height: : 10px;
+	width: : 20;
+}
+.hello {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0.3em;
+
+}
+.name {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.education {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0.2em;
+
+}
